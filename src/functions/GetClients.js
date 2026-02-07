@@ -1,5 +1,6 @@
 const { app } = require('@azure/functions');
 
+// Comment
 app.http('GetClients', {
     methods: ['GET', 'POST'],
     authLevel: 'anonymous',
